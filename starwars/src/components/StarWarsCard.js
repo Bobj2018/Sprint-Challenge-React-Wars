@@ -4,7 +4,7 @@ import { Card, CardHeader, CardBody, CardText, Col } from 'reactstrap';
 function StarWarsCard({ name, height, mass, hairColor, skinColor, eyeColor, birthYear, gender }) {
 	return (
 		<Col xs="6" md="4" lg="3">
-			<Card margin="10px">
+			<Card>
 				<CardHeader>{name}</CardHeader>
 				<CardBody>
 					<CardText>Height: {height}</CardText>
